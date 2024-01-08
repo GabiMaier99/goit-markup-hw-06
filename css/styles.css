@@ -572,6 +572,8 @@ p {
 }
 
 .formular {
+  gap: 24px;
+  padding-left: 80px;
 }
 
 .formular-paragraph {
@@ -585,6 +587,7 @@ p {
 
 .formular-data {
   display: flex;
+  gap: 24px;
 }
 
 .formular-brand {
@@ -832,4 +835,57 @@ p {
 
 .modal-link {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-paragraph {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--hero-background);
+  margin-bottom: 16px;
+}
+
+.modal-child {
+  margin-bottom: 8px;
+}
+
+.modal-label {
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: var(--subtle-text);
+  display: block;
+  margin-bottom: 4px;
+}
+
+.modal-second-child {
+  position: relative;
+}
+
+.second-child-input {
+  width: 100%;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 4px;
+  background-color: transparent;
+  padding-left: 38px;
+  outline: transparent;
+  border-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.second-child-input:focus {
+  border-color: var(--primary-brand);
+}
+
+.modal-sprite {
+  position: absolute;
+  left: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-sprite:focus {
+  fill: var(--primary-brand);
 }
