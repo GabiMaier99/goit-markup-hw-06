@@ -852,6 +852,10 @@ p {
   margin-bottom: 8px;
 }
 
+.modal-child:focus-within {
+  fill: var(--primary-brand);
+}
+
 .modal-label {
   font-size: 12px;
   line-height: 1.17;
