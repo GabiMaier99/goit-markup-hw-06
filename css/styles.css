@@ -97,7 +97,6 @@ p {
   margin: -1px;
   border: 0;
   padding: 0;
-
   white-space: nowrap;
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
@@ -920,7 +919,7 @@ p {
   margin-bottom: 24px;
 }
 
-#user-privacy:checked + .five-child-form-label .modal-terms {
+.five-child-form-input:checked + .five-child-form-label .modal-terms {
   background-color: var(--pressed-state);
   border: none;
   fill: var(--modal-overlay);
@@ -957,7 +956,7 @@ p {
 
 .modal-button-formular {
   display: block;
-  margin-left: 95px;
+  margin: 0 auto;
   min-width: 169px;
   height: 56px;
   font-family: "Roboto", sans-serif;
